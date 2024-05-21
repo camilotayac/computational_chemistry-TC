@@ -5,7 +5,7 @@
 
 
 |Name - Nombre|Colab|Tutorial| Author - Autor|
-|:---:|:---:|:---:|:---:|
+|:---:|:---|:---|:---|
 |🇺🇸 - Pore analysis with HOLE2 <br> 🇪🇸 - Análisis de poro con HOLE2|[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camilotayac/computational_chemistry-TC/blob/master/CoLab/Analisis_poros_HOLE2.ipynb)| |[@Tyac](https://github.com/camilotayac)|
 
 
