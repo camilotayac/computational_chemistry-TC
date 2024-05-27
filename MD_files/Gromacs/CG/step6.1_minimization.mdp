@@ -27,7 +27,7 @@ tau_t                    = 1.0 1.0  1.0
 ref_t                    = 303.15 303.15 303.15
 
 ; Pressure coupling:
-Pcoupl                   = berendsen
+Pcoupl                   = c-rescale
 Pcoupltype               = semiisotropic
 tau_p                    = 5.0
 compressibility          = 3e-4 3e-4
@@ -40,3 +40,11 @@ gen_seed                 = 1660382815
 
 refcoord_scaling         = all
 
+; MARTINI and CONSTRAINTS 
+; for ring systems and stiff bonds constraints are defined
+; which are best handled using Lincs. 
+
+constraints              = none 
+constraint_algorithm     = Lincs
+lincs_order              = 4
+lincs_warnangle          = 90
