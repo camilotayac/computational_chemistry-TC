@@ -1,18 +1,57 @@
-;; minim.mdp - used as input into grompp to generate em.tpr
-; Parameters describing what to do, when to stop and what to save
-define = -DPOSRES
+define                   = -DFLEXIBLE -DNORMANG
+integrator               = steep
+tinit                    = 0.0
+nsteps                   = 5000
 
-integrator      = steep         ; Algorithm (steep = steepest descent minimization)
-;nstxout-compressed     = 1       ; xtc compressed trajectory output every 1000 steps (100 ps)
-;compressed-x-precision = 1       ; precision with which to write to the compressed trajectory file
+nstlog                   = 100
+nstenergy                = 100
+nstxout-compressed       = 1000
+compressed-x-precision   = 100
 
-emtol           = 100.0        ; Stop minimization when the maximum force < 1000.0 kJ/mol/nm
-emstep      = 0.001      ; Energy step size
-nsteps          = 500000         ; Maximum number of (minimization) steps to perform
+cutoff-scheme            = Verlet
+nstlist                  = 20
+ns_type                  = grid
+pbc                      = xyz
+verlet-buffer-tolerance  = 0.005
 
+epsilon_r                = 15
+coulombtype              = reaction-field
+rcoulomb                 = 1.1
+vdw_type                 = cutoff
+vdw-modifier             = Potential-shift-verlet
+rvdw                     = 1.1
 
-constraints              = none
-constraint_algorithm     = Lincs
-unconstrained_start      = no
-lincs_order              = 4
-lincs_warnangle          = 90
+tcoupl                   = v-rescale
+tc-grps                  = protein membrane solute
+tau_t                    = 1.0 1.0  1.0
+ref_t                    = 303.15 303.15 303.15
+
+; Pressure coupling:
+Pcoupl                   = berendsen
+Pcoupltype               = semiisotropic
+tau_p                    = 5.0
+compressibility          = 3e-4 3e-4
+ref_p                    = 1.0  1.0
+
+; GENERATE VELOCITIES FOR STARTUP RUN:
+gen_vel                  = yes
+gen_temp                 = 303.15
+gen_seed                 = 1660382815
+
+;soft-core-minimization so that single precision GROMACS works here
+; Free energy parameters
+free-energy              = yes
+init-lambda              = 0.01
+sc-alpha                 = 4
+sc-power                 = 2
+sc-coul                  = yes
+nstdhdl                  = 0 
+couple-moltype           = system
+; we are changing both the vdw and the charge. In the initial state, both are on
+couple-lambda0           = vdw-q
+; in the final state, both are off.
+couple-lambda1           = none
+couple-intramol          = yes
+
+refcoord_scaling         = all
+
