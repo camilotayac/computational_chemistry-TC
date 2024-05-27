@@ -1,0 +1,58 @@
+define                   = -DPOSRES -DPOSRES_FC=250 -DBILAYER_LIPIDHEAD_FC=50
+integrator               = md
+tinit                    = 0.0
+dt                       = 0.010
+nsteps                   = 100000
+
+nstlog                   = 1000
+nstenergy                = 1000
+nstxout-compressed       = 1000
+compressed-x-precision   = 100
+
+cutoff-scheme            = Verlet
+nstlist                  = 20
+ns_type                  = grid
+pbc                      = xyz
+verlet-buffer-tolerance  = 0.005
+
+epsilon_r                = 15
+coulombtype              = reaction-field
+rcoulomb                 = 1.1
+vdw_type                 = cutoff
+vdw-modifier             = Potential-shift-verlet
+rvdw                     = 1.1
+
+tcoupl                   = v-rescale
+tc-grps                  = protein membrane solute
+tau_t                    = 1.0 1.0  1.0
+ref_t                    = 303.15 303.15 303.15
+
+; Pressure coupling:
+Pcoupl                   = berendsen
+Pcoupltype               = semiisotropic
+tau_p                    = 5.0
+compressibility          = 3e-4 3e-4
+ref_p                    = 1.0  1.0
+
+; GENERATE VELOCITIES FOR STARTUP RUN:
+gen_vel                  = no
+
+
+;-----------------------------
+; COM motion removal
+; These options remove motion of the protein/bilayer relative to the solvent/ions
+;-----------------------------
+
+nstcomm     = 100
+comm-mode   = Linear
+
+; MARTINI and CONSTRAINTS 
+; for ring systems and stiff bonds constraints are defined
+; which are best handled using Lincs. 
+
+refcoord-scaling = com
+constraints              = none 
+constraint_algorithm     = Lincs
+unconstrained_start      = no
+lincs_order              = 4
+lincs_warnangle          = 90
