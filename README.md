@@ -7,13 +7,13 @@
 #### 🟢 Membrane-protein systems analysis ♾️ Análisis de sistemas de membrana-proteína
 
 |Name - Nombre|Colab|Tutorial| Author - Autor|
-|:---:|:---|:---|:---|
+|:---|:---|:---|:---|
 |🇺🇸 - Pore analysis with HOLE2 <br> 🇪🇸 - Análisis de poro con HOLE2|[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camilotayac/computational_chemistry-TC/blob/master/Colab/pore_analysis_HOLE2.ipynb)| |[@Tyac](https://github.com/camilotayac)|
 
 #### 🟢 Coarse-graineds ♾️ Grano grueso
 
 |Name - Nombre|Colab|Tutorial| Author - Autor|
-|:---:|:---|:---|:---|
+|:---|:---|:---|:---|
 |🇺🇸 - Conversion of a CG model to an all-atom <br> 🇪🇸 - Conversión de un modelo CG en un modelo totalmente atómico|[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camilotayac/computational_chemistry-TC/blob/master/Colab/conversion_of_a_CG_model_to_an_all_atom.ipynb)| |[@Tyac](https://github.com/camilotayac)|
 
 
