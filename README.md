@@ -14,7 +14,9 @@
 
 |Name - Nombre|Colab|Tutorial| Author - Autor|
 |:---|:---|:---|:---|
-|🇺🇸 - Conversion of a CG model to an all-atom <br> 🇪🇸 - Conversión de un modelo CG en un modelo totalmente atómico|[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camilotayac/computational_chemistry-TC/blob/master/Colab/conversion_of_a_CG_model_to_an_all_atom.ipynb)| |[@Tyac](https://github.com/camilotayac)|
+|🇺🇸 - Conversion of a CG model to an all-atom <br> 🇪🇸 - Gráfica de evaluación de estructuras proteicas|[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camilotayac/computational_chemistry-TC/blob/master/Colab/conversion_of_a_CG_model_to_an_all_atom.ipynb)| |[@Tyac](https://github.com/camilotayac)|
 
-
-
+#### 🟢 Graphs ♾️ Gráficas 
+|Name - Nombre|Colab|Tutorial| Author - Autor|
+|:---|:---|:---|:---|
+|🇺🇸 - Graph of protein structure evaluation <br> 🇪🇸 - Conversión de un modelo CG en un modelo totalmente atómico|[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camilotayac/computational_chemistry-TC/blob/master/Colab/conversion_of_a_CG_model_to_an_all_atom.ipynb)| |[@Tyac](https://github.com/camilotayac)|
