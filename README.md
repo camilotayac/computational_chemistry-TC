@@ -21,3 +21,5 @@
 |Name - Nombre|Colab|Tutorial| Author - Autor|
 |:---|:---|:---|:---|
 |🇺🇸 - Graph of protein structure evaluation <br> 🇪🇸 - Gráfica de evaluación de estructuras proteicas|[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camilotayac/computational_chemistry-TC/blob/master/Colab/Graph_of_protein_structure_evaluation.ipynb)| |[@Tyac](https://github.com/camilotayac)|
+|🇺🇸 - **Protein** Region Visualization <br> 🇪🇸 - Visualización de regiones de **proteínas**|[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camilotayac/computational_chemistry-TC/blob/master/Colab/Protein_Region_Visualization.ipynb)| |[@Tyac](https://github.com/camilotayac)|
+
