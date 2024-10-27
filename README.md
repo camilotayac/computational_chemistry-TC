@@ -8,7 +8,7 @@
 
 |Name - Nombre|Colab|Tutorial| Author - Autor|
 |:---|:---|:---|:---|
-|🇺🇸 - Installation of **GROMACS** <br> 🇪🇸 -  Instalación de **GROMACS**|[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camilotayac/computational_chemistry-TC/blob/master/Colab/Installation_of_GROMACS.ipynb)| |[@Tyac](https://github.com/camilotayac)|
+|🇺🇸 - **GROMACS** <br> 🇪🇸 -  **GROMACS**|[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camilotayac/computational_chemistry-TC/blob/master/Colab/Installation_of_GROMACS.ipynb)| |[@Tyac](https://github.com/camilotayac)|
 
 
 #### 🟢 Membrane-protein systems analysis ♾️ Análisis de sistemas de membrana-proteína
