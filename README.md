@@ -14,7 +14,7 @@
 
 |Name - Nombre|Colab|Tutorial| Author - Autor|
 |:---|:---|:---|:---|
-|🇺🇸 - Computational Electrophysiology Tutorial <br> 🇪🇸 -  Tutorial de Computational Electrophysiology|[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camilotayac/computational_chemistry-TC/blob/master/Colab/Colab/Computational_Electrophysiology_Tutorial.ipynb)| |[@Tyac](https://github.com/camilotayac)|
+|🇺🇸 - Computational Electrophysiology Tutorial <br> 🇪🇸 -  Tutorial de Computational Electrophysiology|[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camilotayac/computational_chemistry-TC/blob/master/Colab/Computational_Electrophysiology_Tutorial.ipynb)| |[@Tyac](https://github.com/camilotayac)|
 
 #### 🟢 Membrane-protein systems analysis ♾️ Análisis de sistemas de membrana-proteína
 
