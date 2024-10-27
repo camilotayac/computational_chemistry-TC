@@ -41,7 +41,7 @@ GROMACS:      gmx mdrun, version 2023.2
 Executable:   /usr/local/gromacs/bin/gmx
 Data prefix:  /usr/local/gromacs
 Working dir:  /home/tyac/computational_chemistry-TC/Examples/CG
-Process ID:   1128
+Process ID:   2308
 Command line:
   gmx mdrun -deffnm step6.1_minimization
 
@@ -152,7 +152,7 @@ Input Parameters:
    comm-mode                      = Linear
    nstcomm                        = 100
    bd-fric                        = 0
-   ld-seed                        = 1300220925
+   ld-seed                        = -17587385
    emtol                          = 10
    emstep                         = 0.01
    niter                          = 20
@@ -354,7 +354,7 @@ Setting the maximum number of constraint warnings to 2147483647
 
 Note that activating steepest-descent energy minimization via the integrator .mdp option and the command gmx mdrun may be available in a different form in a future version of GROMACS, e.g. gmx minimize and an .mdp option.
 Initiating Steepest Descents
-Started Steepest Descents on rank 0 Sun Oct 27 10:40:50 2024
+Started Steepest Descents on rank 0 Sun Oct 27 10:53:28 2024
 
 
 Steepest Descents:
@@ -39113,5 +39113,5 @@ Steepest Descents did not converge to Fmax < 10 in 5001 steps.
 Potential Energy  = -2.3194158e+05
 Maximum force     =  2.6989419e+03 on atom 303
 Norm of force     =  4.1848456e+01
-Finished mdrun on rank 0 Sun Oct 27 10:41:09 2024
+Finished mdrun on rank 0 Sun Oct 27 10:54:24 2024
 
